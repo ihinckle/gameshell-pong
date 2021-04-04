@@ -1,10 +1,10 @@
 Player = {}
 
 function Player:load()
-    self.x = 15
-    self.y = (love.graphics.getHeight()/2)-25
     self.width = 10
     self.height = 50
+    self.x = 15
+    self.y = (love.graphics.getHeight()/2)-(self.height/2)
     self.speed = 250
 end
 
